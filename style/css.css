@@ -1,0 +1,196 @@
+p {
+	text-indent:2em;
+	padding-bottom:5px;
+}
+body {
+	color:#6E6135;
+}
+center {
+	font-size:13.5px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+table {
+	border-collapse: 0px;
+	border-spacing: 0px;
+}
+.bottom-title {
+	text-align:right;
+	padding-right:150px;
+}
+.aboutMenu a {
+	color:#000000;
+	/* text-decoration:none; */
+}		
+
+
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clb {
+	clear:both;
+}
+.txtl {
+	text-align:left;
+}
+.txtr {
+	text-align:right;
+}
+.b {
+	font-weight:bold;
+}
+.fnormal {
+	font-weight:normal;
+}
+.topImg {
+	background:url("../images/top-bg.jpg") no-repeat;
+	height:17px;
+}
+.footerImg {
+	background:url("../images/bottom-bg.jpg") no-repeat;
+	height:17px;
+}
+.navPath {
+	height: 30px;
+    text-align: left;
+	padding-left:20px;
+}
+.navPath a {
+	color:#6E6135;
+	text-decoration:none;
+	
+}
+.navPath a:hover {
+	text-decoration:underline;
+}
+.newmain {
+	background: url("../images/middle-bg.jpg") repeat-y scroll center center transparent;
+    width: 960px;
+}
+.mainContent {
+	margin-bottom:5px;
+}
+.mainContent .sidebarLeft {
+    float: left;
+	color: #FFFFFF;
+    margin: 0 0px 0 20px;
+    width: 150px;
+}
+.mainContent .sidebarRight {
+	float: right;
+	color: #000000;
+    margin: 0 20px 0 0px;
+}
+.mainContent .sidebarRight .navTitle {
+	background: url("../images/title-bg.jpg") repeat-x scroll 0 0 transparent;
+    font-weight: bold;
+    font-size:13px;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    width: 750px;
+	display:block;
+}
+.mainContent .sidebarRight .txtBox {
+    line-height: 24px;
+    margin: 20px;
+    width: 700px;
+	display:block;
+}
+.mainContent .sidebarRight .txtBox .txtList {
+	
+}
+.mainContent .sidebarRight .txtBox .txtList table {
+	font-size:12px;
+	border: 0 none;
+    line-height:25px;
+    width: 100%;
+}
+.mainContent .sidebarRight .txtBox .txtList table tr td a {
+	color: #6E6135;
+}
+.mainContent .sidebarRight .txtBox .txtTitle{
+	padding:0px 0px 5px 0px;
+	border-bottom: 1px dashed #000000;
+	width:700px;
+	color:#6E6135;
+	margin:0px 0px 0px -10px;
+}
+.txtTitle h1 {
+	font-size:18px;
+	margin:2px;
+}
+.txtTitle h2 {
+	margin:2px;
+	font-size:14px;
+	margin-left:150px;
+	font-weight:normal;
+}
+.mainContent .sidebarRight .txtBox .parameters {
+	padding-top:10px;
+
+}
+.mainContent .sidebarRight .txtBox .txtContent {
+	display:block;
+	text-align: left;
+	margin-top:15px;
+	color:#6E6135;
+}
+
+.mainContent .sidebarRight .txtBox .txtContent .part {
+	display:block;
+	margin-top:5px;
+}
+.mainContent .sidebarRight .txtBox .txtContent .poetry {
+	padding-top:5px;
+	margin:5px 15px;
+	width:335px;
+	display:block;
+	text-align:center;
+}
+.mainContent .sidebarRight .txtBox .txtContent .txtpoetry {
+	padding-top:10px;
+	margin:5px 15px;
+	margin-left:300px;
+	width:380px;
+	display:block;
+	text-align:left;
+	font-weight:bold;
+	font-size:13px;
+word-wrap:break-word ;
+}
+
+.badging {
+	text-align: right;
+	padding-right:200px;
+}
+.poetry ul,.txtpoetry ul {
+	list-style-type : none;
+	margin-top:10px;
+}
+.poetry ul li ,.txtpoetry ul li{
+	list-style-type : none;
+	list-style-image: none;
+	color:#6E6135;
+	display:block;
+}
+
+.contentpage {
+	clear:both;
+	color: #6E6135;
+    text-align: center;
+	padding-top:20px;
+}
+.txtArticlContent {
+	padding: 10px 20px 0px 20px;
+	text-align:left;
+}
+.nextPage {
+	text-align:center;
+	color:#6E6135;
+}
+.nextPage a {
+	color:#6E6135;
+}

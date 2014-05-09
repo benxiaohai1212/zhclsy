@@ -1,0 +1,526 @@
+
+	*{
+		margin: 0 auto 0 auto;
+		padding: 0;
+		border: 0;
+	}
+	body { 
+		font-family:宋体 Verdana; 
+		font-size:12px; 
+		margin:0 auto;
+		text-align:center;
+		background-color:#CDC7A3;
+	}
+
+	.container {
+		margin:0 auto; 
+		width:960px;
+	}
+	.header { 
+		height:89px;
+		background:#CDC7A3 url(../images/_banner-bg2.jpg) no-repeat;;
+		margin-bottom:4px;
+	}
+		
+	.menu {
+		height:35px;
+		width:960px;
+		background:url(../images/_menu-bg.jpg);
+		margin-top: -5px;
+	}
+	.href {
+		 padding-top: 10px;
+		 background-color:transparent;
+	}
+#content { margin:0 205px !important; margin:0 202px; height:500px; background:#cff;}
+	
+	a {
+		background-color:transparent;
+		text-decoration:none;
+	}
+	a:hover {
+		background-color:transparent;
+		text-decoration:none;
+	}
+	.href a {
+		color:#FFFFFF;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	.href a:hover {
+		color:#FFF100;
+		//font-weight:bold;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	a.boke {
+		color:#6E6135;
+	}
+	.mainContent {
+		height:auto; 
+		margin-bottom:0px;
+	}	
+	.img_pic {
+		margin-top:40px;
+		width:191px;
+		height:auto;
+		color:#6E6135;
+		font-size:12px;
+		font-family:宋体 ;
+		line-height:20px;
+		background-color:transparent;
+	}
+	.img_pic a {
+		color:#6E6135;
+	}
+	.img_pic a:hover {
+		font-size:12px;
+		font-weight:normal;
+		color:red;
+	}
+	.sidebar { 
+		float:left; 
+		width:245px; 
+		height:225px; 
+		padding-left:0px;
+		background:#CDC7A3 url(../images/new_bg.jpg) no-repeat ;
+	}
+	.sidebar2 { 
+		float:left; 
+		width:232px \9;
+		margin:0px 2px 0px 2px;
+		padding-left:240px;
+		height:225px; 
+		background:#CDC7A3 url(../images/war_peom.jpg) no-repeat;
+	}
+	.sidebar2Ul {
+		margin:0px;
+		margin-top:40px;
+		margin-left:-205px;
+		margin-left:-250px \9; 
+		width:180px;
+		width:220px \9;
+		height:auto;
+		color:#6E6135;
+		font-size:12px;
+		font-family:宋体 ;
+		line-height:20px;
+		text-align:left;
+		background-color:transparent;
+	}
+	.sidebar3 { 
+		float:right; 
+		width:248px;
+		height:225px; 
+		padding-right:0px;
+		background:#CDC7A3 url(../images/person_peom.jpg) no-repeat;
+	}
+	.sidebar3Ul {
+		margin:40px 15px 0px 40px ;
+		margin:40px 10px 0px 0px \9;
+		width:190px;
+		width:220px \9;
+		height:auto;
+		color:#6E6135;
+		font-size:12px;
+		font-family:宋体 ;
+		line-height:20px;
+		text-align:left;
+		background-color:transparent;
+	}
+	.sidebar4 { 
+		float:right; 
+		width:232px; 
+		height:225px;
+		margin-top: -225px;
+		margin-right:250px;
+		background:transparent url(../images/family_peom.jpg) no-repeat;
+	}
+	.sidebar4Ul {
+		margin:40px 0 0 35px;
+		margin:40px 0 0 0px \9;
+		width:180px; 
+		width:210px \9;
+		height:auto;
+		color:#6E6135;
+		font-size:12px;
+		font-family:宋体 ;
+		line-height:20px;
+		text-align:left;
+		z-index:1000;
+		background-color:transparent;
+	}
+	ul {
+		background-color:transparent;
+	}
+	li {
+		list-style-image: url("../images/dian.gif"); 
+		line-height:25px;
+		background-color:transparent;
+	}
+	li a {
+		color:#6E6135;
+		font-size:12px;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	li a:hover {
+		color:red;
+		font-size:12px;
+		font-weight:normal;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	.father_mother {
+		margin-top: 225px;
+		margin-top: 0px \9;
+		font-size:13px;
+		width:960px;
+		height:246px;
+		background:#CDC7A3 url(../images/father_mother.jpg) no-repeat;
+	}
+	.father {
+		float:left;
+		width:440px;
+		height:190px;
+		margin:0px;
+		margin:40px 0px 0px 20px;
+		background-color:transparent;
+		color:#6E6135;
+/*		background-color:red; */
+	}
+	.fatherContent {
+		margin:0px;
+		margin-top:20px;
+		margin-left:20px;
+		float:right;
+		width:298px;
+		height:190px;
+		background-color:transparent;
+	}
+	.fatherContentTitle {
+		font-size:14px;
+		height:16px;
+		font-weight:bold;
+		color: #D8141E;
+		text-align:left;
+		padding-bottom:5px;
+		background-color:transparent;
+	}
+	.fatherContentIntroduction {
+		font-size:13px;
+		text-align:left;
+		line-height:20px;
+		height:130px;
+		width:290px;
+		background-color:transparent;
+	}
+	.fatherContentMore {
+		height:20px;
+		text-align:right;
+		padding-right:5px;
+		background-color:transparent;
+	}
+	.fatherContentMore a {
+		color:#6E6135;
+	}
+	.fatherContentMore a:hover {
+		color:red;
+		font-weight:normal;
+	}
+	.mother {
+		float:right;
+		width:450px;
+		height:190px;
+		margin:40px 20px 0px 0px;
+		color:#6E6135;
+		background-color:transparent;
+/*		background-color:blue; */
+	}
+	.motherContent {
+		margin:0px;
+		margin-top:20px;
+		margin-right:10px;
+		float:right;
+		width:300px;
+		height:190px;
+		background-color:transparent;
+	}
+	.motherContentTitle {
+		font-size:14px;
+		height:16px;
+		font-weight:bold;
+		color: #D8141E;
+		text-align:left;
+		padding-bottom:5px;
+		background-color:transparent;
+	}
+	.motherContentIntroduction {
+		font-size:13px;
+		text-align:left;
+		line-height:20px;
+		height:130px;
+		width:290px;
+		background-color:transparent;
+	}
+	.motherContentMore {
+		height:20px;
+		text-align:right;
+		padding-right:5px;
+		background-color:transparent;
+	}
+	.motherContentMore a {
+		color:#6E6135;
+	}
+	.motherContentMore a:hover {
+		color:red;
+		font-weight:normal;
+	}
+	.photo {
+		float:left;
+		margin-top:20px;
+		width:122px;
+	}
+	.footer_menu { 
+		margin:0px;
+		padding:0px;
+		margin-top:5px;
+		height:40px; 
+		width:960px;
+		font-size:13px;
+		color:#6E6135;
+		background:#CDC7A3 url(../images/link-bg.jpg) no-repeat center;
+	}
+	.footer_menuDiv {
+		margin:0px;
+		padding:0px;
+		padding-top:10px;
+		background-color:transparent;
+	}
+	.footer_menuDivTable {
+		width:90%;
+		border:0px;
+		font-size:13px;
+		background-color:transparent;
+	}
+	tr {
+		background-color:transparent;
+	}
+	.tdClass {
+		text-align:center;
+		background-color:transparent;
+	}
+	.footer_menuDivTable a {
+		margin:0px;
+		color:#6E6135;
+		background-color:transparent;
+	}
+	.footer_menuDivTable a:hover {
+		font-size:13px;
+		color:#6E6135;
+		font-weight:normal;
+		background-color:transparent;
+	}
+	.footer {
+		margin:0px;
+		margin-top:5px;
+		margin-bottom:5px;
+		line-height:20px;
+		color:#6E6135;
+	}
+	/******************************************************************************************/
+/* 关于我们、历史瞬间CSS */
+	.about {
+		margin-top:0px;
+		width:960px;
+		height:600px;
+		height:auto /9;
+		background:transparent url(../images/middle-bg.jpg) repeat-y center;
+	}
+	.aboutHeader { 
+		height:auto; 
+	}
+	.aboutMenu {
+		height:30px;
+		width:920px;
+		text-align:left;
+	}
+	.aboutMainContent { 
+		height:auto;
+		
+	}
+	.aboutSidebar { 
+		color:#FFFFFF;
+		float:left; 
+		width:150px; 
+		margin:0px 10px 0px 20px;
+		height:500px;
+		height:auto \9; 
+			
+	}
+	.aboutcontent { 
+		float:right; 
+		width:750px; 
+		margin:0px 20px 0px 10px;	
+		height:auto; 
+		
+	}
+	.aboutSidebarImg {
+		text-align:center;
+		height:25px;
+		padding:3px 0px 0px 0px;
+		background:url(../images/leftmenu-bg.jpg) no-repeat;
+	}
+	.aboutContentTile {
+		height:auto;
+		width:750px;
+		font-weight:bold;
+		text-align:left;
+		padding:5px 0 5px 10px;
+		background:url(../images/title-bg.jpg) no-repeat;
+	}
+	.aboutContentContent {
+		text-align:left;
+		line-height:35px;
+		height:350px;
+		width:700px;
+		padding:0px;
+	}
+	span {
+		padding:0 0 0 30px;
+	}
+	#menuleft {
+		padding:0px;
+	}
+	#titleleft {
+		padding:0px;
+	}
+/*************************************************************************************************/
+/*  */
+	.leftIsIntroducedTitle {
+		text-align:left;
+		height:25px;
+		width:920px;
+		color:#FFFFFF;
+		padding:3px 0px 0px 40px;
+		background:url(../images/leftmenu-bg.jpg) no-repeat;
+	}
+	.backbgcolor {
+		background:red;
+		height:auto;
+		width:920px;
+		text-align:left;
+	}
+	.leftIsIntroducedphoto {
+		float:left;
+		margin:20 20 20 20px;
+		filter:Alpha (opacity=100,finishopacity=0,style=2);
+	}
+	.chenyishengping {
+		line-height:35px;
+		margin:0 20 0 0px;
+		text-align:left;
+	}
+	.zhangqianshengping {
+		filter:Alpha (opacity=50,finishopacity=0,style=2);
+	}
+	.back {
+		float:right;
+		padding-right:20px;
+	}
+
+	.aboutSidebarImg a {
+		color:#FFFFFF;
+		background-color:transparent;
+		text-decoration:none;
+		
+	}
+
+	#lifeIntroduced {
+		padding:0px;
+	}
+
+	.error {
+		margin-top:100px;
+		text-align:center;
+		line-height:30px;
+		font-weight:bold;
+	}
+	#authologyChenYi {
+		padding:0px;
+	}
+	.authologyDiv {
+		color:#6E6135;
+		font-size:12px;
+	}
+	.authologyP {
+		font-size:14px;
+		font-weight:bold;
+	}
+	.authologyShiCi {
+		font-weight:bold;
+	}
+	.fenye {
+		font-size:13px;
+		text-align:center;
+		color:#6E6135;
+	}
+	.fenye a {
+		color:#6E6135;
+	}
+	.fenye a:hover {
+		color:red;
+	}
+	.spanRight{
+		position:relative; 
+		margin-right:6px;
+	}
+	.authologyChenyi {
+		widht:680px;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		margin-right:30px;
+	}
+	.authologyTable {
+		border:0px;
+		width:100%;
+		font-size:12px;
+		color:#6E6135;
+	}
+	.authologyTable tr {
+		line-height:25px;
+	}
+	.authologyTableTd1 {
+		text-align:right;
+	}
+	.authologyTableTd2 {
+		text-align:left;
+	}
+	.authologyTableTd3 {
+		text-align:right;
+	}
+	.authologyTable a {
+		color:#6E6135;
+		text-decoration:none;
+	}
+	.authologyTable a:hover {
+		color:#FF0000;
+		text-decoration:none;
+	}
+	.authologyChenYi3 {
+		line-height:20px;
+		color:#6E6135;
+		font-size:12px;
+	}
+	.article {
+		width:700px;;
+		margin:0;
+		padding:0px;
+		text-align:center;
+		margin-top:20px;
+	}
+	/*p{
+		em是相对单位，2em即现在一个字大小的两倍
+		text-indent: 2em; 	
+	}	*/
